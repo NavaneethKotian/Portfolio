@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Navaneeth | Portfolio</title>
+
+<style>
+
+/* ===== DEFAULT COLORS ===== */
+
+:root {
+
+--bg: #dbe6f2;        /* Slight dark professional background */
+--text: #222;
+--card: #f0f4f8;
+--nav: #4a5568;
+--skill-bg: #cbd5e0;
+
+}
+
+/* ===== BODY ===== */
+
+body {
+
+margin: 0;
+font-family: Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+
+}
+
+/* ===== NAVBAR ===== */
+
+nav {
+
+background: var(--nav);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 12px 20px;
+flex-wrap: wrap;
+
+}
+
+nav ul {
+
+list-style: none;
+display: flex;
+gap: 25px;
+margin: 0;
+padding: 0;
+
+}
+
+nav a {
+
+color: white;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+/* ===== HERO ===== */
+
+.hero {
+
+text-align: center;
+padding: 60px 20px;
+
+background: linear-gradient(
+to right,
+#cbd5e1,
+#e2e8f0
+);
+
+}
+
+/* ===== SECTIONS ===== */
+
+section {
+
+padding: 40px 20px;
+
+}
+
+.container {
+
+max-width: 900px;
+margin: auto;
+
+}
+
+/* ===== CARDS ===== */
+
+.card {
+
+background: var(--card);
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+/* ===== SKILLS ===== */
+
+.skill {
+
+margin-bottom: 15px;
+
+}
+
+.skill-bar {
+
+background: var(--skill-bg);
+border-radius: 20px;
+
+}
+
+.skill-fill {
+
+height: 12px;
+width: 0;
+background: #475569;
+border-radius: 20px;
+transition: width 2s ease;
+
+}
+
+/* ===== LINK BUTTON ===== */
+
+.linkedin-btn {
+
+display: inline-block;
+padding: 12px 20px;
+background: #0A66C2;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+
+background: var(--nav);
+color: white;
+text-align: center;
+padding: 15px;
+
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width:600px) {
+
+nav {
+
+flex-direction: column;
+gap: 10px;
+
+}
+
+nav ul {
+
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#project">Project</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>Navaneeth</h1>
+
+<h3>Mechatronics Engineering Student</h3>
+
+<p>
+
+Passionate about robotics, automation, and intelligent systems.
+Experienced in Arduino, embedded systems,
+and real-world engineering solutions.
+
+</p>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="container">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+
+I am a Mechatronics Engineering student with strong interest
+in robotics, automation, and intelligent systems.
+
+I have knowledge in Python, C programming,
+Arduino, embedded systems,
+and mechanical design integration.
+
+</p>
+
+<p>
+
+I enjoy integrating mechanical, electrical,
+and software components
+to create innovative engineering solutions.
+
+</p>
+
+</div>
+
+<h2>Education</h2>
+
+<div class="card">
+
+<b>PUC</b><br>
+
+Vijaya College, Mulki, Karnataka<br>
+
+Completed in 2024
+
+<br><br>
+
+<b>Bachelor of Engineering – Mechatronics</b><br>
+
+Mangalore Institute of Technology and Engineering<br>
+
+2024 – 2028 (Expected)
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<div class="container">
+
+<h2>Technical Skills</h2>
+
+<div class="card">
+
+<div class="skill">
+
+Visual Studio Code
+
+<div class="skill-bar">
+<div class="skill-fill" data-width="80%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+Arduino IDE
+
+<div class="skill-bar">
+<div class="skill-fill" data-width="78%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+Arduino
+
+<div class="skill-bar">
+<div class="skill-fill" data-width="75%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+Git & GitHub
+
+<div class="skill-bar">
+<div class="skill-fill" data-width="65%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+AutoCAD
+
+<div class="skill-bar">
+<div class="skill-fill" data-width="60%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+Solid Edge
+
+<div class="skill-bar">
+<div class="skill-fill" data-width="65%"></div>
+</div>
+
+</div>
+
+</div>
+
+<h2>Core Skills</h2>
+
+<div class="card">
+
+<div class="skill">
+Problem Solving
+<div class="skill-bar">
+<div class="skill-fill" data-width="85%"></div>
+</div>
+</div>
+
+<div class="skill">
+Communication
+<div class="skill-bar">
+<div class="skill-fill" data-width="80%"></div>
+</div>
+</div>
+
+<div class="skill">
+Teamwork
+<div class="skill-bar">
+<div class="skill-fill" data-width="85%"></div>
+</div>
+</div>
+
+<div class="skill">
+Leadership
+<div class="skill-bar">
+<div class="skill-fill" data-width="75%"></div>
+</div>
+</div>
+
+<div class="skill">
+Critical Thinking
+<div class="skill-bar">
+<div class="skill-fill" data-width="80%"></div>
+</div>
+</div>
+
+<div class="skill">
+Creativity
+<div class="skill-bar">
+<div class="skill-fill" data-width="78%"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECT -->
+
+<section id="project">
+
+<div class="container">
+
+<h2>Project</h2>
+
+<div class="card">
+
+<h3>Smart Parking System using Arduino</h3>
+
+<p>
+
+Designed and implemented a Smart Parking System using
+Arduino microcontroller, IR sensors,
+servo motor, and LCD display.
+
+The system monitors vehicle entry and exit,
+updates available parking slots,
+and improves parking efficiency.
+Future scope includes IoT integration.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="container">
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<p><b>Email:</b> navaneethsalian2000@gmail.com</p>
+
+<p><b>Phone:</b> 89047 51370</p>
+
+<a href="https://www.linkedin.com/in/navaneeth-salian-75b480334"
+target="_blank"
+class="linkedin-btn">
+
+Connect on LinkedIn
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Navaneeth | Portfolio</p>
+
+</footer>
+
+<script>
+
+/* ===== SKILL ANIMATION ===== */
+
+window.onload = function() {
+
+let skills =
+document.querySelectorAll(".skill-fill");
+
+skills.forEach(skill => {
+
+skill.style.width =
+skill.getAttribute("data-width");
+
+});
+
+};
+
+</script>
+
+</body>
+
+</html>
